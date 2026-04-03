@@ -1,6 +1,6 @@
-CSC 106 / IFT 203 – Introduction to Web Technologies
+CSC 106 / IFT 203 – Introduction to Web Technologies ( Lumina Collectives Website Documentation – Group 7)
 
-Lumina Collectives Website Documentation – Group 7
+
 Project Overview
 This project is a fully functional multi-page website developed for an upcoming fashion house. The website showcases products, provides information about the team, and allows users to make inquiries and book appointments.
 
@@ -28,16 +28,19 @@ Website Features
 •	JavaScript Features: Includes interactivity such as validation and dynamic updates.
 •	External CSS Styling: Ensures consistent design.
 •	DOM Structure: Organized structure using HTML DOM.
+
 Pages Included
 •	Home Page
 •	Products Page
 •	Board of Trustees Page
 •	Inquiries & Appointments Page
 •	Upcoming Events Page
+
 Technologies Used
 •	HTML5
 •	CSS3 (External Stylesheet)
 •	JavaScript
+
 Project Structure
 /fashion-house-website
 ├── index.html
@@ -48,10 +51,12 @@ Project Structure
 ├── css/styles.css
 ├── js/script.js
 └── images/
+
 How to Run the Project
 1.	Clone or download the repository.
 2.	Open the project folder.
 3.	Launch index.html in your browser.
+
 Requirements Checklist
 •	Minimum of 5 pages
 •	Product showcase
