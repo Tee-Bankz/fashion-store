@@ -1,212 +1,65 @@
 CSC 106 / IFT 203 – Introduction to Web Technologies
 
-This project involves developing a multi-page website for an upcoming fashion house. The website showcases products, events, and provides a platform for inquiries and appointment bookings.
-
-The project demonstrates the use of HTML, CSS, and JavaScript along with proper DOM structure and consistent navigation across all pages.
-
-Fashion House Name
-
-(Insert the agreed group name for the fashion house here)
-
-Example:
-Elegance Couture
-
-Project Requirements
-1. Website Pages
-
-The website must contain at least five (5) pages, including:
-
-Home Page
-
-Product Showcase
-
-Board of Trustees
-
-Inquiries & Appointment Booking
-
-Upcoming Events
-
-2. Product Showcase
-
-A dedicated page displaying the fashion products offered by the fashion house, such as:
-
-Dresses
-
-Suits
-
-Casual wear
-
-Accessories
-
-Each product should include:
-
-Image
-
-Product name
-
-Short description
-
-3. Consistent Link Structure
-
-All pages must contain the same navigation menu to allow easy movement between pages.
-
-Example navigation:
-
-Home | Products | Board of Trustees | Appointments | Events
-4. Board of Trustees
-
-This page displays photos of all group members, representing the board of trustees of the fashion house.
-
-Each member should include:
-
-Photo
-
-Name
-
-Role/Position
-
-5. Inquiries and Appointments
-
-A page that allows visitors to:
-
-Send inquiries
-
-Book appointments
-
-This can include a form with:
-
-Name
-
-Email
-
-Phone number
-
-Message
-
-Appointment date
-
-6. Upcoming Events
-
-A page that displays future fashion events, such as:
-
-Fashion shows
-
-Product launches
-
-Exhibitions
-
-Each event may include:
-
-Event title
-
-Date
-
-Location
-
-Description
-
-7. Marquee Feature
-
-A marquee element should appear on all pages displaying:
-
-Upcoming events
-
-Announcements
-
-Promotions
-
-Example:
-
-<marquee>Upcoming Fashion Show – April 2026 | New Collection Launch Soon</marquee>
-8. JavaScript Features
-
-Each page should implement JavaScript functionality, such as:
-
-Form validation
-
-Image slider
-
-Alert messages
-
-Dynamic content updates
-
-Interactive buttons
-
-9. External CSS
-
-The website styling must be managed using an external CSS file.
-
-Example:
-
-style.css
-
-This file controls:
-
-Layout
-
-Colors
-
-Typography
-
-Responsive design
-
-10. Document Object Model (DOM)
-
-The DOM structure of the website should be shown to illustrate how the HTML elements are organized.
-
-Example structure:
-
-Document
- └── html
-      ├── head
-      │    └── title
-      └── body
-           ├── header
-           ├── nav
-           ├── main
-           │    ├── section
-           │    └── article
-           └── footer
+Lumina Collectives Website Documentation – Group 7
+Project Overview
+This project is a fully functional multi-page website developed for an upcoming fashion house. The website showcases products, provides information about the team, and allows users to make inquiries and book appointments.
+
+Contributors
+Temitope Bankole	Lagos	2025/A/CYB/0380
+Temi Michael	Lagos	2025/A/CYB/0194
+Titus Emmanuel Ayodele	Lagos	2025/A/CYB/0074
+Abdulazeez Ajayi Yusuf	Ogun	2025/A/CYB/0220
+Linda Amarachi Obodo 	Lagos	2025/A/CYB/0240
+Jemima Samuel ojeikhewo 	Abuja	2025/A/CYB/0385
+Muhammednazir Abdulrazaq	Abuja	2025/A/CYB/0089
+Jasmine Osaruese Eghaghe 	Edo	2025/A/CYB/0320
+Victoria udoh	Lagos	2025/A/CYB/0228
+Amable Ezenwa 	Lagos	2025/A/CYB/0032
+Sunday David	Lagos	2025/A/CYB/0152
+
+Lumina Collectives - https://lumina-collectives.vercel.app/index.html
+Website Features
+•	Product Showcase: Displays fashion items with images and descriptions.
+•	Consistent Navigation: Uniform link structure across all pages.
+•	Board of Trustees: Displays group members’ photos.
+•	Inquiries & Appointments: Allows users to send inquiries and book appointments.
+•	Upcoming Events: Displays fashion shows and promotions.
+•	Marquee Feature: Scrolling announcements on all pages.
+•	JavaScript Features: Includes interactivity such as validation and dynamic updates.
+•	External CSS Styling: Ensures consistent design.
+•	DOM Structure: Organized structure using HTML DOM.
+Pages Included
+•	Home Page
+•	Products Page
+•	Board of Trustees Page
+•	Inquiries & Appointments Page
+•	Upcoming Events Page
 Technologies Used
-
-HTML5
-
-CSS3 (External Stylesheet)
-
-JavaScript
-
-DOM Manipulation
-
+•	HTML5
+•	CSS3 (External Stylesheet)
+•	JavaScript
 Project Structure
-fashion-house-website/
-│
+/fashion-house-website
 ├── index.html
 ├── products.html
 ├── trustees.html
-├── appointments.html
+├── contact.html
 ├── events.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
+├── css/styles.css
+├── js/script.js
 └── images/
-Author(s)
-
-Group Members (Board of Trustees):
-
-Member 1
-
-Member 2
-
-Member 3
-
-Member 4
-
-Member 5
-
-License
-
-This project is for academic purposes only as part of the CSC 106 / IFT 203 – Introduction to Web Technologies course.
+How to Run the Project
+1.	Clone or download the repository.
+2.	Open the project folder.
+3.	Launch index.html in your browser.
+Requirements Checklist
+•	Minimum of 5 pages
+•	Product showcase
+•	Consistent navigation structure
+•	Board of Trustees page
+•	Inquiry and appointment page
+•	Upcoming events page
+•	Marquee on all pages
+•	JavaScript functionality
+•	External CSS file
+•	DOM structure representation
